@@ -103,7 +103,7 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.task-list-item > * {
   vertical-align: middle;
 }
 .task-selection {
@@ -128,13 +128,13 @@ li > * {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.task-input {
   display: none;
 }
 
@@ -143,6 +143,6 @@ ul li input[type=text] {
   width: 224px;
 }
 
-ul li.editMode label {
+.editMode .task-label {
   display: none;
 }
